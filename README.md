@@ -20,7 +20,3 @@ The user can make a get request to "https://lohum-assignment-gaurav.onrender.com
 The code for the backend application is present in the "index.js" file in the "Backend" directory.
 The code for the front-end part is present in the "App.js" file in the "src" directory.
 
-# Platforms used for deployment
-
-I have used Render for deploying the backend server.
-And I have used Netlify for deploying the frontend application.
