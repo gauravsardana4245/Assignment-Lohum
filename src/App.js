@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  const host = "http://localhost:5000/price"
+  const host = "https://lohum-assignment-gaurav.onrender.com/price"
 
-  const [currentPrice, setCurrentPrice] = useState(0);
+  const [currentPrice, setCurrentPrice] = useState("loading...");
   useEffect(() => {
     const getPrice = async () => {
       const response = await fetch(host, {

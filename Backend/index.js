@@ -3,7 +3,7 @@ import cors from 'cors'
 import axios from 'axios'
 import cheerio from 'cheerio'
 const app = express();
-const port = 5000;
+const port = 5000 || process.env.PORT;
 
 app.use(express.json());
 app.use(cors())
