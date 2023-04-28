@@ -1,6 +1,6 @@
 # About the Project
 
-This is an assignment to create a RestFul API that returns the live price mentioned in the website - https://www.metal.com/Lithium-ion-Battery/202303240001
+This is an assignment to create a RestFul API that returns the live price mentioned in the website - "https://www.metal.com/Lithium-ion-Battery/202303240001"
 
 # How Was The Project Set Up
 
@@ -13,9 +13,9 @@ The API gets the price by accessing the text of the element from the HTML struct
 
 # How can the API be used
 
-The user can make a get request to "https://lohum-assignment-gaurav.onrender.com/price" to get the current price mentioned on the website(i.e "https://www.metal.com/Lithium-ion-Battery/202303240001") of the Lithium-ion-Battery in a Json format.
+The user can make a GET request to "https://lohum-assignment-gaurav.onrender.com/price" to get the current price mentioned on the website(i.e "https://www.metal.com/Lithium-ion-Battery/202303240001") of the Lithium-ion-Battery in a Json format.
 
-# Project structure
+# Project Structure
 
 The code for the backend application is present in the "index.js" file in the "Backend" directory.
 The code for the front-end part is present in the "App.js" file in the "src" directory.
