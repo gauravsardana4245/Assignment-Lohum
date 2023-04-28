@@ -4,7 +4,7 @@ This is an assignment to create a RestFul API that returns the live price mentio
 
 # How Was The Project Set Up
 
-I first created a backend application using node.js which uses express,cors,axios and cheerio as the support packages to create a RestFul API to get the live price from the website.
+I first created a backend application using Node.js which uses express,cors,axios and cheerio as the support packages to create a RestFul API to get the live price from the website.
 Then I created the frontend using React.js to display the current price being fetched from the API.
 
 # How does the API get the price from the website
