@@ -11,7 +11,7 @@ app.get('/price', async (req, res) => {
     try {
         const page = await axios.get('https://www.metal.com/Lithium-ion-Battery/202303240001')
         const $ = cheerio.load(page.data);
-        const element = $('.block___2RfAT .priceDown___2TbRQ').eq(0);
+        const element = $('.block___2RfAT .strong___1JlBD').eq(0);
         const price = element.text(); // get the text inside the element
         res.json({ price: price });
     } catch (error) {
